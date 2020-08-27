@@ -1,0 +1,5 @@
+<h1>Editing Price</h1>
+
+<%= render 'form', price: @price, url: product_ticket_price_path(@product, @ticket, @price) %>
+
+<%= link_to 'Back', product_ticket_prices_path(@product, @ticket) %>

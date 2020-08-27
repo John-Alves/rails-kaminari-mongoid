@@ -1,0 +1,5 @@
+<h1>Editing Ticket</h1>
+
+<%= render 'form', ticket: @ticket, url: product_ticket_path(@product, @ticket) %>
+
+<%= link_to 'Back', product_tickets_path(@product) %>

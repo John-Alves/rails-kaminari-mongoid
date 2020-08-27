@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Discount value:</strong>
+  <%= @price.discount_value %>
+</p>
+
+<p>
+  <strong>Value:</strong>
+  <%= @price.value %>
+</p>
+
+<p>
+  <strong>Ticket:</strong>
+  <%= @price.ticket_id %>
+</p>
+
+<p>
+  <strong>Benefit tier:</strong>
+  <%= @price.benefit_tier %>
+</p>
+
+<%= link_to 'Edit', edit_price_path(@price) %> |
+<%= link_to 'Back', prices_path %>
